@@ -13,7 +13,10 @@ Installation
 In Sublime Text 2, open the menu `Preferences -> Browse Packages...` then create the folder ManiaScript and copy-paste the files `ManiaScript.tmLanguage` and `ManiaScript.sublime-completions` in there.
 
 ### Alternative method
-Very soon via Package Control
+- Install [Package Control](http://wbond.net/sublime_packages/package_control)
+- Install the package `ManiaScript`
+- Restart SublimeText 2 or 3
+- Enjoy!
 
 
 Content
