@@ -16,8 +16,8 @@ In Sublime Text 2, open the menu `Preferences -> Browse Packages...` then create
 Very soon via Package Control
 
 
-Contents
---------
+Content
+-------
 
 ### Updated Syntax Coloring & Autocompletion
 
