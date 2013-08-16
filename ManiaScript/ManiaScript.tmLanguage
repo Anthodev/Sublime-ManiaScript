@@ -4,7 +4,7 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>txt</string>
+		<string>Script.txt</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>#RequireContext </string>
@@ -55,7 +55,14 @@
 		<!-- STRUCTS -->
 		<dict>
 			<key>match</key>
-			<string>\b(CMlScript|CMlEntry|CMlFileEntry|CMlLabel|CMlMediaPlayer|CMlQuad|CMlGauge|CManiaplanetPlugin|CTmMode|CSmMode|CTmMlScriptIngame|CSmMlScriptIngame|CEditorPlugin|CSmMapType|CTmMapType|CNod|CMlPage|CMlEvent|CXmlManager|CHttpManager|CMlControl|CUser|CManiaplanetPluginEvent|CTitle|CGameCtnNetServerInfo|CMap|CUILayer|CBuddiesManager|CMode|CTmPlayer|CTmScore|CTmModeEvent|CSmPlayer|CSmModeEvent|CSmBase|CSmBlock|CSmBlockSpawn|CSmBlockPole|CSmScore|CMlScriptIngame|CTmMlPlayer|CTeam|CBlockModel|CMacroblockModel|CBlock|CAnchorData|CEditorPluginEvent|CMapType|CMlFrame|CXmlDocument|CHttpRequest|CGameNetServerInfo|CMapInfo|CBuddy|CBuddiesEvent|CUIConfigMgr|CXmlRpc|CPlayer|CTmResult|CScore|CGhost|CSmSector|CSmGauge|CUIConfig|CCollector|CBlockModelVariantGround|CBlockModelVariantAir|CBlockUnit|CXmlNode|CNetMasterHost|CXmlRpcEvent|CBlockModelVariant|CBlockUnitModel|CBlockModelClip)\b</string>
+			<string>\b(CMlScript|CMlEntry|CMlFileEntry|CMlLabel|CMlMediaPlayer|CMlQuad|CMlGauge|CManiaplanetPlugin|CTmMode|CSmMode|CTmMlScriptIngame|CSmMlScriptIngame|CEditorPlugin|CSmMapType|CTmMapType|CNod|CMlPage|CMlEvent|CXmlManager|CHttpManager|CMlControl|CUser|CManiaplanetPluginEvent|CTitle|CGameCtnNetServerInfo|CMap|CUILayer|CBuddiesManager|CMode|CTmPlayer|CTmScore|CTmModeEvent|CSmObject|CSmObjectAnchor|CSmPlayer|CSmPlayerDriver|CSmModeEvent|CSmBase|CSmBlock|CSmBlockSpawn|CSmBlockPole|CSmScore|CSmScriptBotPath|CMlScriptIngame|CTmMlPlayer|CTeam|CBlockModel|CMacroblockModel|CBlock|CAnchorData|CEditorPluginEvent|CMapType|CMlFrame|CXmlDocument|CHttpRequest|CGameNetServerInfo|CMapInfo|CBuddy|CBuddiesEvent|CUIConfigMgr|CXmlRpc|CPlayer|CTmResult|CScore|CGhost|CSmSector|CSmGauge|CUIConfig|CCollector|CBlockModelVariantGround|CBlockModelVariantAir|CBlockUnit|CXmlNode|CNetMasterHost|CXmlRpcEvent|CBlockModelVariant|CBlockUnitModel|CBlockModelClip)\b</string>
+			<key>name</key>
+			<string>storage.type.ms</string>
+		</dict>
+		<!-- Variable -->
+		<dict>
+			<key>match</key>
+			<string>\b(Status|Player|Position|Vel|ItemName|ItemModelId|Score|SpawnStatus|StartTime|EndTime|AmmoGain|AmmoPower|AutoSwitchWeapon|CurWeapon|CurAmmo|CurAmmoMax|CurAmmoUnit|Armor|ArmorMax|ArmorGain|ArmorReplenishGain|ArmorPower|Stamina|StaminaMax||StaminaGain|StaminaPower|SpeedPower|UseAlternateWeaponVisual|IsHighlighted|EnergyLevel|ForceColor|ForceModelId|ThrowSpeed|CurrentClan|IdleDuration|AimYaw|AimPitch|AimDirection|IsUnderground|IsTouchingGround|IsInOffZone|IsCapturing|BlockPole|Objects|IsFakePlayer|IsBot|Driver|Points|RoundPoints|NbEliminationsInflicted|NbEliminationsTaken|NbRespawnsRequested|DamageInflicted|DamageTaken|Behaviour|AggroRadius|DisengageDistance|Agressivity|PathOffset|PathSpeedCoef|UseOldShootingSystem|Accuracy|ReactionTime|ShootPeriodMin|ShootPeriodMax|RocketAnticipation|Fov|AttackFilter|Target|IsStuck|Patrol_Mode|Escape_AnchorPoint|Escape_DistanceSafe|Escape_DistanceMinEscape|Escape_DistanceMaxEscape|Saunter_AnchorPoint|Saunter_BaseChillingTime|Saunter_ChillingTimeDelta|Saunter_Radius|Scripted_ForceAimInMoveDir|ForcedTarget|TargetsToAvoid|InputWalkAnalog|InputStrafeAnalog|InputIsGunTrigger|InputIsAction)\b</string>
 			<key>name</key>
 			<string>storage.type.ms</string>
 		</dict>
@@ -84,6 +91,12 @@
 			<string>\b([0-9]+)?\b</string>
 			<key>name</key>
 			<string>constant.numeric.ms</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\bUI[a-zA-Z]*?\b</string>
+			<key>name</key>
+			<string>storage.type.ms</string>
 		</dict>
 		<dict>
 			<key>begin</key>
