@@ -10,16 +10,10 @@ Installation
 ------------
 
 ### Primary method
-In Sublime Text 2, open the menu `Preferences -> Browse Packages...` and copy-paste the folder ManiaScript in there.
+In Sublime Text 2, open the menu `Preferences -> Browse Packages...` then create the folder ManiaScript and copy-paste the files `ManiaScript.tmLanguage` and `ManiaScript.sublime-completions` in there.
 
 ### Alternative method
-These files should be placed into the package directory. For those on OS X, this can be found at:
-
-`/Users/[USERNAME]/Library/Application Support/Sublime Text 3/Packages/`
-
-For Windows, this directory is here:
-
-`C:\Users\[USERNAME]\AppData\Roaming\Sublime Text 3\Packages\`
+Very soon via Package Control
 
 
 Contents
@@ -41,7 +35,4 @@ Contribution
 
 Thanks first to [Tgys](https://github.com/Tgys) for the first version of this syntax.
 
-Please feel free to comment, suggest, stab, pull request and fork. You can also add a Flattr if you want to support me more but i do it more for the fun :p. Any Flattr dontations are much appreciated!
-
-[![Flattr Button](http://api.flattr.com/button/flattr-badge-large.png)][Flattr]
-[Flattr]: https://flattr.com/thing/1813498/
+Please feel free to comment, suggest, stab, pull request and fork.
